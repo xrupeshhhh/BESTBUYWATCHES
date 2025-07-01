@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="../javascript/java.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-box {
+      background: #fff;
+      padding: 30px;
+      width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      text-align: left;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .error {
+      color: red;
+      font-size: 14px;
+      display: none;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .small-text {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .small-text a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .small-text a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-box">
+    <h2>Login</h2>
+    <form onsubmit="return validateForm()">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username" aria-label="Username">
+      <span class="error" id="usernameError">Username is required</span>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" aria-label="Password">
+      <span class="error" id="passwordError">Password is required</span>
+      <button type="submit">Login</button>
+      </form>
+     <p class="small-text">Not a member? <a href="signuppage.html">Register now</a></p>
+     </div>
+
+ 
+</body>
+</html>
+

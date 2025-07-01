@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|Blog</title>
+    <link rel="stylesheet" href="../css/index.css"> <!--ExternalCSS-->
+
+     <style>
+
+
+body{
+    padding: 0;
+    margin:0;}
+.background
+    { 
+    background-color:gainsboro;
+    color:black;
+    display: flex;
+    border:solid black;
+   
+    }
+
+.split { 
+   
+    display:flex
+    
+}
+.left{ flex: 50%;}
+.right{
+   
+    flex: 50%;
+}
+.description{
+    margin-right: 20%;
+}
+.Title{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.button{
+    margin-top: -8%;
+    margin-left: -5%;
+}
+.rating{
+    margin-top: -15%;
+    margin-left: -5%;
+}
+
+</style>
+
+</head>
+<body>
+    <section>
+        <!-- navbar -->
+    <nav class="navbar">
+        <div class = "navdiv">
+            <div class="logo"> <a href="../index.html">  <img src="../images/LOGO_IS-removebg-preview (1).png" alt="an image" width="80px" height="80px"> <img src="../images/New_Microsoft_Word_Document__1__page-0002-removebg-preview.png" alt="an image" width="290px" height="80px"> </a> </div>  <!-- linked to homepage while clicking logo-->
+            <ul> <!-- Unordered list -->
+                <li> <a href="../index.html"> Home </a> </li> <!--link--> 
+                <li> <a href="./blog.html"> Blog </a></li>
+                <li> <a href="./product.html"> Product</a></li>
+                <li> <a href="./research.html"> Research</a></li>
+                <li> <a href="./aboutus.html"> About Us </a></li>
+                
+                <button > <a href="./loginpage.html" style="color: black; font-size: 18px; font-weight: bold; margin-right: 10px;">  LogIn </a> </button>
+                
+                </ul>
+            
+            </nav>
+            
+        </div>
+    </section>
+
+    <section class="background" >
+   
+        <div class="split left"><!--div class for left div-->
+           <img src="../images/p2.png" height="600px" width="580px">
+            </div>
+            <div class="split right "> <!--div class for right div-->
+                <div class="Title"><!--div class for title-->
+                    <h1>Apple Watch Series 10</h1>
+                
+                    <div class="description">
+                    <p>Apple Watch Series 10(GPS 46mm case) <br>Smartwatch with Slate Black Titanium Case<br> With Blue Sport Band -S/M.
+                    Fitness Tracker,<br> ECG App, Always-On Retina Display, Water Resistant.</p>
+                </div>
+                <div class="price">
+                    <h4 style="text-decoration: line-through; padding-right: 20px; color: brown;">NPR 95,000</h4>
+                    <h4>NPR 85,000</h4>
+                </div>
+                    <div class="rating">
+                    <img src="../images/Rating.png" height="140px" width="150px">
+                </div>
+                    <div class="button">
+                        <button onclick="AddToCart()">Add To Cart</button>
+                </div>
+                </div>
+            </div>
+        </section>
+        <script> 
+            function AddToCart(){
+    alert("Successfully Added To Cart");
+}
+        </script>
+        <footer>
+            <div class="container">
+    
+                <div class="footer-content">
+                    <h3> Contact Us</h3>
+                    <p> Email: bestbuywatches@gmail.com</p>
+                    <p> Phone:<br>
+                        +977 9841456789</p>
+                    <p> Address:<br>
+                         Kamalpokhari, Kathmandu</p>
+                </div>
+                <div class=" footer-content">
+                    <h3> Quick links</h3>
+                    <ul class="list">
+                        <li> <a href="../index.html"> Home</a></li>
+                        <li> <a href="../pages/blog.html"> Blog</a></li>
+                        <li> <a href="../pages/product.html"> Product</a></li>
+                        <li> <a href="./aboutus.html"> Research</a></li>
+                        <li>  <a href="./aboutus.html"> About Us</a></li> 
+                        
+                    </ul>
+                </div>
+                <div class=" footer-content">
+                    <h3> Follow Us</h3>
+                    <ul class="social-icons">
+                        <li> <a href="https://www.facebook.com/"> <img class="" src="../images/f.png" alt="an image"></a></li> <!-- images used for an icon-->
+                        <li> <a href="https://www.instagram.com/"> <img src="../images/i.png" alt="an image1"> </a></li>
+                        <li> <a href="https://np.linkedin.com/">  <img src="../images/l.png" alt="an image2"></a></li>
+                        <li> <a href="https://x.com/?lang=en&mx=2"> <img src="../images/x.png" alt= "an image3"></a></li>
+                    </ul>
+    
+                </div>
+                
+                    
+            </div>
+    
+                    <div class="bottom-bar"> 
+                        <p> &copy; 2025 Best Buy Watches . All rights reserved </p>
+                        </div>
+    
+    
+           
+    
+        </footer>
+    
+    </body>
+    
+    </html>

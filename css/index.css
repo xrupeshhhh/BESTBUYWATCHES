@@ -1,0 +1,128 @@
+
+  .navbar{
+      background-color: black; font-family: calibri; padding-right: 15px; padding-left: 15px;
+
+  }
+ 
+  .navdiv{
+      display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo a{
+          font-size: 35px;font-weight: 600; color:black;
+
+  }
+  .navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  
+  
+  li{
+       list-style: none; display: inline-block;
+       margin: 0 10px;
+
+  }
+  li a {
+      color: white; font-size: 18px; font-weight: bold; margin-right: 25px;  text-decoration: none;
+  }
+  button{
+ 
+    background-color: white; margin-left: 10px; border-radius: 20px; padding: 10px; width: 90px; 
+   }
+   
+footer{
+
+    width: 100%;
+
+    margin: auto;
+    padding: 0;
+   
+    color: white;
+    margin-top: auto;
+    background: black;
+    padding-top: -50px;
+    
+    
+   
+}
+.container{
+    width: 1100px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.footer-content{
+    width: 33.3%;
+
+}
+h3{
+    font-size:28px ;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: px;
+    height: min-content;
+
+
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+
+.social-icons{
+    text-align: center;
+    padding: 0px;
+    
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 1px;
+}
+.social-icons img{
+    color: white;
+    width: 40px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+} 
+.social-icons img:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+  
+}
+.bottom-bar p{
+    color: black;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px ;
+
+}
